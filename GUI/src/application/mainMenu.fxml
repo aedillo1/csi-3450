@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Text layoutX="16.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inventory Management Database" textAlignment="CENTER" wrappingWidth="567.13671875">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="482.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version 0.0.1" textAlignment="CENTER" wrappingWidth="101.0" />
+      <Button layoutX="16.0" layoutY="175.0" mnemonicParsing="false" onAction="#switchTo_manageInventory" prefHeight="25.0" prefWidth="126.0" text="Manage Inventory" />
+      <Button layoutX="16.0" layoutY="243.0" mnemonicParsing="false" onAction="#switchTo_loginPage" prefHeight="25.0" prefWidth="126.0" text="Log Out" />
+      <Button layoutX="16.0" layoutY="210.0" mnemonicParsing="false" onAction="#switchTo_manageEmployee" prefHeight="25.0" prefWidth="126.0" text="Manage Employees" />
+   </children>
+</AnchorPane>

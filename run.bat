@@ -1,0 +1,1 @@
+java -jar --module-path D:/Github/csi-3450-project/GUI/javafx-sdk-17.0.1/lib --add-modules javafx.controls,javafx.fxml --enable-preview csi-3450-project.jar
